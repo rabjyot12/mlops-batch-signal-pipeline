@@ -1,0 +1,15 @@
+2026-04-23 23:11:18,235 - INFO - Job started
+2026-04-23 23:11:18,236 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-04-23 23:11:18,246 - ERROR - Error occurred: Missing required column: close
+2026-04-23 23:17:22,140 - INFO - Job started
+2026-04-23 23:17:22,141 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-04-23 23:17:22,153 - ERROR - Error occurred: CSV error: bad delimiter value
+2026-04-23 23:19:24,982 - INFO - Job started
+2026-04-23 23:19:24,983 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-04-23 23:19:24,991 - ERROR - Error occurred: Missing required column: close. Found: ['timestamp,open,high,low,close,volume_btc,volume_usd']
+2026-04-23 23:21:06,105 - INFO - Job started
+2026-04-23 23:21:06,106 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-04-23 23:21:06,125 - INFO - Rows loaded: 10000
+2026-04-23 23:21:06,129 - INFO - Rolling mean and signals computed
+2026-04-23 23:21:06,129 - INFO - Metrics: {'version': 'v1', 'rows_processed': 9996, 'metric': 'signal_rate', 'value': np.float64(0.4991), 'latency_ms': 23, 'seed': 42, 'status': 'success'}
+2026-04-23 23:21:06,129 - INFO - Job completed successfully
